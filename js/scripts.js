@@ -29,17 +29,15 @@
 //   var newBoard = this.board,
 //   var currentTurn = this.currentTurn
 // }
-var turncount = 1
+
 $(document).ready(function() {
+  var turncount = 1;
   $("td").click(function() {
-    for (i = 0; i < turncount; i++) {
-      if (i % 2) {
+      if (turncount % 2 === 0) {
         $(this).text("O");
-        console.log("o");
       } else {
         $(this).text("X");
-        console.log("x");
       }
-    }
+      turncount +=1;
   });
 });
