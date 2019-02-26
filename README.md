@@ -1,5 +1,5 @@
 # Tac-Tac-Toe
-#### a website for who people to play tic-tac-toe, 2017
+#### a website for two people to play tic-tac-toe, 2017
 
 #### By Emily Sershon
 
